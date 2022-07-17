@@ -14,6 +14,8 @@ In this notebook we are going to explore the use of Support Vector Machines (**S
 ## Regression
 We consider a [dataset](https://www.kaggle.com/harlfoxem/housesalesprediction) containing house sale prices for King County, which includes Seattle. It includes homes sold between May 2014 and May 2015. For each house we know 18 house features (e.g., number of bedrooms, number of bathrooms, etc.) plus its price, that is what we would like to predict.
 The price will be regressed using several different methods:
+- **Linear models**
+- **Neural Networks**
 - **k-Nearest Neighbours**
 - **Clustering and "Local" Linear Models** (clustering to identify groups of similar instances, and then linear models that are specific to each cluster)
 - **Clustering and "Local" NNs** (same as above, but with neural networks instead of linear models)
